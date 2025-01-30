@@ -21,6 +21,17 @@ dependencies {
 
     // This dependency is used by the application.
     implementation libs.guava
+
+    //used for object mapper
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.0.1'
+
+    // https://mvnrepository.com/artifact/org.mindrot/jbcrypt
+    // for encrypt and decrypt
+    implementation 'org.mindrot:jbcrypt:0.4'
+
+    implementation 'org.projectlombok:lombok:1.18.22'
+
+
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
